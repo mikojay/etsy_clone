@@ -1,0 +1,21 @@
+{
+  "name": "etsy_clone",
+  "version": "1.0.0",
+  "description": "etsy clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "etsy",
+    "clone",
+    "etsy",
+    "clone",
+    "ecommerce"
+  ],
+  "author": "Chang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
