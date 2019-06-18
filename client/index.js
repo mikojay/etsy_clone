@@ -3,10 +3,10 @@ const path = require('path')
 const app = express()
 
 // static for everything
-app.use(express.static(path.join(__dirname, 'etsy_clone')))
+app.use(express.static(path.join(__dirname, 'client')))
 
 app.get('/shop', (req, res) => {
-	res.sendFile(path.join(__dirname, '/etsy_clone/shop.html'))
+	res.sendFile(path.join(__dirname, '/shop.html'))
 })
 
 
