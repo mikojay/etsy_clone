@@ -5,7 +5,9 @@ const app = express()
 // static for everything
 app.use(express.static(path.join(__dirname, 'etsy_clone')))
 
-
+app.get('/shop', (req, res) => {
+	res.sendFile(path.join(__dirname, '/etsy_clone/shop.html'))
+})
 
 
 
